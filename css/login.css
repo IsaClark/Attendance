@@ -37,14 +37,18 @@ body form img {
 
 body form #username-input {
     padding:2%;
-    margin-bottom:2.5%;
+    margin-bottom:4%;
     width:80%;
+    border-radius:10px;
+    border:none;
 }
 
 body form #password-input {
     padding:2%;
-    margin-bottom:2.5%;
+    margin-bottom:4%;
     width:80%;
+    border-radius:10px;
+    border:none;
 }
 
 body form #login-btn {
@@ -52,6 +56,8 @@ body form #login-btn {
     font-weight: bold;
     font-size:125%;
     box-shadow:4px 4px;
+    border-radius:10px;
+    border:none;
 }
 
 body form #login-btn:hover {
