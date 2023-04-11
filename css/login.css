@@ -51,4 +51,9 @@ body form #login-btn {
     padding:5%;
     font-weight: bold;
     font-size:125%;
+    box-shadow:4px 4px;
+}
+
+body form #login-btn:hover {
+    cursor:pointer;
 }
