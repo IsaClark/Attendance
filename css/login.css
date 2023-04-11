@@ -1,0 +1,17 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+body form {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+}
