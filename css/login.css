@@ -3,10 +3,18 @@
     padding:0px;
 }
 
+html {
+    height:100%;
+}
+
 body {
     display:flex;
     justify-content:center;
     align-items:center;
+    height:100%;
+    background-image:url('../images/login-background.jpeg');
+    background-position: center;
+    background-size:cover;
 }
 
 body form {
@@ -14,4 +22,33 @@ body form {
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
+    background-color:#080A14;
+    padding:2.5% 7.5%;
+    box-shadow:10px 10px 3px black;
+    height:fit-content;
+    width:20%;
+}
+
+body form img {
+    border-radius:25px;
+    height:auto;
+    width:150%;
+}
+
+body form #username-input {
+    padding:2%;
+    margin-bottom:2.5%;
+    width:80%;
+}
+
+body form #password-input {
+    padding:2%;
+    margin-bottom:2.5%;
+    width:80%;
+}
+
+body form #login-btn {
+    padding:5%;
+    font-weight: bold;
+    font-size:125%;
 }
